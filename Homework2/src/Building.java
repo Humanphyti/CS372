@@ -1,4 +1,3 @@
-
 public abstract class Building {
 	String name = "";
 	String address = "";
@@ -25,8 +24,8 @@ public abstract class Building {
 		return name;
 	}
     
-    public getLength(){
-        return currentOccupants.length();
+    public int getLength(){
+        return currentOccupants.length;
     }
     
     public boolean isPolice(int i){
