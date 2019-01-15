@@ -1,3 +1,5 @@
+//PT -- missing javadoc. -2
+
 import java.util.Random;
 
 public abstract class Person {
@@ -15,6 +17,7 @@ public abstract class Person {
 	}
 	
 	public void setAge(int age) {
+		//PT -- validate the age, phone number. -2
 		this.age = age;
 	}
 	
