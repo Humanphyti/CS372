@@ -12,7 +12,9 @@ public class EX1_3 {
 		int z = 0;
 		int integer = 0;
 		int length;
+		//PT -- if (input[0] < '0' || inputC[0] > '9')
 		if (inputC[0] < 48 || inputC[0] > 57) {
+			//PT -- again, give the user another chance. -2
 			System.out.printf("You did not give me a number", args);
 		} 
 		else {
