@@ -1,4 +1,4 @@
-
+//PT -- missing javadoc. -2
 public class Police extends Person implements Employee {
 	public enum policeRole{Patrol, Seargent, Captain, Chief};
 	private policeRole role;
@@ -17,6 +17,7 @@ public class Police extends Person implements Employee {
 
 	@Override
 	public boolean getMoney(Employee emp) {
+		//PT -- ??? Why return a bool?
 		return true;
 	}
 }
