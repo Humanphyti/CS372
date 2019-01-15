@@ -9,7 +9,10 @@ public class Date {
 	private int month;
 	private int year;
 	
+	//PT -- Functionality missing, e.g. get today's date, diff. -5
+	
 	public void setDay(int userDay) {
+		//PT -- Need to validate these inputs. -2
 		day = userDay;
 	}
 	
