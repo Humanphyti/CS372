@@ -7,6 +7,7 @@ public class EX1_1 {
 			Scanner scnr = new Scanner(System.in);
 			input = scnr.nextInt();
 			if(input < 10 || input > 100)
+				//PT -- don't just quit if the user entered an invalid number. Let them try again. -2
 				System.out.printf("Incorrect, Please enter a number between 10 and 100\n");
 			else {
 				for (int i = 0; i <= input; i++) {
