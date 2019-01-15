@@ -14,6 +14,8 @@ public class Employee {
 			ID = employeeID;
 	}
 	
+	//PT -- need get functions so this class is usable. -3
+	
 	public void setName(String employeeName) {
 		name = employeeName;
 	}
