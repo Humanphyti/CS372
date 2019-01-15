@@ -27,13 +27,16 @@ public abstract class Building {
     public int getLength(){
         return currentOccupants.length;
     }
-    
+    //PT -- this shouldn't be on Building, since other buildings won't need to find teachers or police officers. This
+	// implementation should be on City Hall -5
     public boolean isPolice(int i){
         if (currentOccupants[i] instanceof Police)
             return true;
         else
             return false;
     }
+    //PT -- this shouldn't be on Building, since other buildings won't need to find teachers or police officers. This
+	// implementation should be on School -5
     public boolean isTeacher(int i){
         if (currentOccupants[i] instanceof Teacher)
             return true;
