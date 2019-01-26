@@ -1,3 +1,20 @@
+/*
+FEEDBACK
+
+Read from the file correctly: 20/20%
+Implement class hierarchy correctly: 15/20%
+Populate appropriate data structures with shape data: 15/15%
+Show list of shapes correctly: 15/15%
+Show specific shape properties correctly: 15/15%
+Well-structured, well-commented code: 12/15%
+
+
+Comments:
+  Shapes shouldn't have member variables that are specific to square, triangle, circle, or rectangle.
+  Move readFile to a separate class
+
+*/
+
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
 import java.awt.Image;
